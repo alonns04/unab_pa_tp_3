@@ -41,9 +41,15 @@ cada libro: título, autor (usa la clase Persona), ISBN, páginas, edición, edi
 servicios: getters y setters, método para leer la información y método para mostrar la
 información.
 ● Este último método mostrará la información del libro con este formato:
+
 Título: Introduction to Java Programming 3a. edición
+
 Autor: Liang, Y. Daniel
+
 ISBN: 0-13-031997-X
+
 Prentice-Hall, New Jersey (USA)
+
 viernes 16 de noviembre de 2001
+
 784 páginas
