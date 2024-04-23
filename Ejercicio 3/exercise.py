@@ -8,3 +8,9 @@ class Linea():
         distancia = abs(distancia)          # hago que sea positivo, porque mover a la derecha es positivo
         self.p1.mover_x(distancia)
         self.p2.mover_x(distancia)
+        
+    def mover_x(self, distancia):
+        self.x -= distancia
+    
+    def mover_y(self, distancia):
+        self.y += distancia
