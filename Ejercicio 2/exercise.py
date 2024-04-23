@@ -11,6 +11,12 @@ class Punto():
         
     def eje_y(self):
         return self.y
+    
+    def mover_x(self,distancia):
+        self.x = distancia
+
+    def mover_y(self,distancia):
+        self.y = distancia
         
     def opuesto(self):
         return Punto(-self.eje_x(),-self.eje_y())
